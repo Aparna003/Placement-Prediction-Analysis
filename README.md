@@ -4,11 +4,18 @@ This analysis shows Explorative Data Analysis and developing a prediction model 
 attributes like CGPA, Internships taken, No of backlogs, etc. on the CollegePlace dataset. By implementing data cleaning, encoding the categorical values, and scaling the numerical values data wrangling is performed followed by which a binomial logistic regression model is used to train and test to predict whether the student gets placement or not.
 # Language used: R programming
 ### Features in the dataset:
-Age: Age of the student 
+Age: Age of the student  
+
 Gender: Male or Female student
+
 Stream: The department they belong to 
+
 Internships: No of internships taken
+
 CGPA: The Cumulative Grade Point Average out of 10
+
 Hostel: Hosteller or day scholar ( Yes/No response)
+
 HistoryOfBackLogs: No of backlogs they have throughout their semesters
+
 PlacedOrNot: Placement confirmed or not (Yes/No response) - Dependent variable
